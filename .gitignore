@@ -1,0 +1,21 @@
+# Secrets and runtime data — never commit
+.env
+.env.*
+!.env.example
+data/
+*.pem
+*.key
+*.jks
+*.keystore
+secret
+vapid.json
+state-*.json
+
+# Local tooling
+.claude/
+.claude-flow/
+
+# Build / OS
+node_modules/
+dist/
+.DS_Store
